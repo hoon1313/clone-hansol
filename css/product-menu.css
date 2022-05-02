@@ -1,0 +1,24 @@
+.product-menu {
+    display: flex;
+    margin : 20px 30px;
+    font-size:12px;
+    justify-content: space-around;
+}
+
+.product-menu__list {
+    display: block;
+    width : 100px;
+    border-bottom: 2.5px solid rgba(0,0,0,0.2);
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.product-menu__list {
+    margin-right : 10px;
+}
+
+.product-menu__list:hover  a{ 
+    color : dodgerblue;
+    padding-bottom: 15px;
+
+}

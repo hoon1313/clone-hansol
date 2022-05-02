@@ -1,0 +1,40 @@
+
+.header-nav {
+    display: flex;
+    width : 100%;
+    flex-direction: row;
+    height : 60px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;    
+}
+.header-nav img {
+    width : 100px;
+}
+.header-nav__center ul {
+    display: flex;
+    flex-direction: row;
+    font-size : 15px;
+}
+
+.nav-bar__center-menu{
+    margin: 0px 10px;
+    padding-bottom: 5px;
+}
+.nav-bar__center-menu:hover{
+    color :dodgerblue;
+
+    border-bottom : 2px solid dodgerblue;
+}
+
+
+.header-nav__right ul {
+    display: flex;
+    flex-direction: row;
+  
+}
+.nav-bar__right-menu {
+    font-size : 6px;
+    border-right :.4px solid rgba(0,0,0,0.2);
+}
+
